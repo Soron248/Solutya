@@ -1,0 +1,97 @@
+.testiSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testiText {
+  margin-top: 77px;
+}
+.testiText h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #ff3b00;
+  margin-bottom: 20px;
+}
+.testiImage {
+  margin-top: 55px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+}
+.testiImage img {
+  margin: 0 62px;
+}
+.testiCard {
+  display: flex;
+}
+.testiCard div {
+  width: 352px;
+  height: 384px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  margin: 0 19px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.testiCard div img {
+  margin-top: 47px;
+  margin-bottom: 37px;
+}
+.testiCard div p {
+  color: #544e4e;
+  font-family: "Imprima";
+  font-style: normal;
+  margin: 0 42px;
+}
+.testiCard div h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 75px;
+}
+.testiCard div h5 {
+  font-size: 16px;
+  color: red;
+}
+.dot img {
+  margin: 0 11px;
+  cursor: pointer;
+}
+.blogText {
+  width: 1200px;
+}
+.blogCard img {
+  margin: 0 23px;
+  margin-bottom: 80px;
+}
+.news {
+  width: 1240px;
+  height: 300px;
+  border-radius: 12px;
+  background: url("./TestiImages/newsBg.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.news input {
+  width: 372px;
+  height: 74px;
+  margin: 0 35px;
+  background: rgba(46, 36, 51, 0.5);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  border: none;
+}
+.news button {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+}

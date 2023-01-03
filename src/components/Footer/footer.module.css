@@ -1,0 +1,68 @@
+.footSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+.detail {
+  margin-top: 140px;
+  display: flex;
+  margin-bottom: 43px;
+}
+.detail div {
+  margin: 0 110px;
+}
+.detail div h2 {
+  margin-bottom: 52px;
+}
+.detailCom p {
+  color: #d9d9d9;
+  margin-top: 19px;
+}
+.detail div input {
+  width: 339px;
+  height: 63px;
+  background: rgba(189, 176, 176, 0.8);
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.detail div button {
+  width: 339px;
+  height: 63px;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  margin-bottom: 16px;
+}
+.contact {
+  width: 1570px;
+  margin-bottom: 23px;
+}
+.foot {
+  height: 154px;
+  width: 1200px;
+  float: right;
+  background-color: white;
+  border-top-left-radius: 15px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.footright {
+  display: flex;
+  position: absolute;
+  color: black;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}

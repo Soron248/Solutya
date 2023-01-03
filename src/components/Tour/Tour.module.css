@@ -1,0 +1,157 @@
+.tourSection {
+  width: 100%;
+  position: relative;
+  height: 2300px;
+}
+.check {
+  width: 1047px;
+  position: absolute;
+  height: 168px;
+  right: 50%;
+  box-shadow: 0px 4px 5px 0px gray;
+  transform: translate(50%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.input {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.input div {
+  margin: 0 10px;
+}
+.input div span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.input div .location {
+  width: 280px;
+  height: 45px;
+  border: 1px solid #b6a7a7;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.input div .date {
+  width: 150px;
+  height: 45px;
+  border: 1px solid #b6a7a7;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.input button {
+  width: 150px;
+  height: 45px;
+  background: #ff3b00;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  margin-top: 30px;
+}
+.text {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  margin-top: 82px;
+  right: 50%;
+  transform: translate(50%);
+}
+.text h1 {
+  margin-top: 200px;
+  position: absolute;
+  font-size: 48px;
+}
+.text div p {
+  position: absolute;
+  margin-top: 260px;
+  color: #645e5e;
+}
+.rightText span img {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.rightText {
+  position: absolute;
+  margin-top: 230px;
+  color: #645e5e;
+  right: 0;
+}
+.card {
+  position: absolute;
+  top: 370px;
+}
+.card img {
+  position: absolute;
+  transform: translate(40%);
+}
+.text2 {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  margin-top: 782px;
+  right: 50%;
+  transform: translate(50%);
+}
+.text2 h1 {
+  font-size: 48px;
+}
+.text2 div {
+  width: 100%;
+  color: #645e5e;
+}
+.text2 div .p1 {
+  float: left;
+  clear: both;
+}
+.text2 div .p2 {
+  float: right;
+}
+.card2 {
+  position: absolute;
+  top: 900px;
+}
+.card2 img {
+  position: absolute;
+  transform: translate(44%);
+}
+.text3 {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  margin-top: 1500px;
+  right: 50%;
+  transform: translate(50%);
+}
+.text3 h1 {
+  font-size: 48px;
+}
+.card3 {
+  position: absolute;
+  top: 1600px;
+}
+.card3 img {
+  position: absolute;
+  transform: translate(44%);
+}
+.card4 {
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  height: 283px;
+  background: #d9d9d9;
+}
+.card4 .image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card4 .image div {
+  margin: 80px;
+}
